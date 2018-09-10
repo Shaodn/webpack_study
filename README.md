@@ -73,4 +73,4 @@ cnpm i --save-dev babel-loader babel-core babel-preset-env
     对css进行打包！！！
     安装style-loader 和css-loader
     cnpm i --save-dev style-loader css-loader
-css-loader的版本号改成0.28.11
+css-loader的版本号改成0.28.11 
