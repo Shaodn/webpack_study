@@ -58,5 +58,28 @@ webpack提供一个本地开发服务器，这个服务器是基于node.js
 cnpm i --save-dev webpack-dev-server@2.9.5
     webpack-dev-server => 3.0以上版本是为webpack4.0服务的
 我们用2.9.5版本
+命令：npm run server
+
+
+webpack又一个强大功能
+        ---loaders ===========>
+通过使用不同的loader，webpack 有能力调用外部的工具和模块，
+实现对不同格式文件的处理，比如说把es6=>es5;转化成现代浏览器兼容的js文件
+==========>因为babel 一直就在干这个兼容性转义的，所以用babel  //https://www.babeljs.cn/
+
+====> 下载babel的处理模块包
+babel的安装和配置
+    babel的三个核心模块
+        babel-loader ===》让webpack知道babel如何运行
+        babel-core ===》让babel知道如何解析代码
+        babel-preset-env ===》可以根据不同的环境转换代码
+cnpm i --save-dev babel-loader babel-core babel-preset-env
+    这个改一下版本：cnpm i --save-dev babel-loader@7.1.1
+    babel-loader ======> es6 进行转义 ==> (前端的export与export default 规范）
+
+    对css进行打包！！！
+    安装style-loader 和css-loader
+    cnpm i --save-dev style-loader css-loader
+css-loader的版本号改成0.28.11
 </body>
 </html>
