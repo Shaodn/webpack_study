@@ -39,7 +39,7 @@ module.exports = {
                         options:{
                             // 把css 当成模块 => json对象来看待
                             modules:true,//指定启用css modules
-                            localldentName:'[name]_[local]--[hash:base64:5]'//指定css的类名格式
+                            localIdentName:'[name]_[local]--[hash:base64:5]'//指定css的类名格式
                         }
                     }
                 ]
